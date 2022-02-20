@@ -28,13 +28,14 @@
 		</header>
 		@include('nav')
 		@if (Session::has('messege'))
-							<div class="alert alert-success">
-								{{ Session::get('messege')}}
-							</div>
-					@endif
-		<div>
-			@yield('content')
+		<div class="container mt-3">
+			<div class="alert alert-success">
+							{{ Session::get('messege')}}
+			</div>
 		</div>
+		@endif
+		@yield('content')
+	
 		
 		<footer>
 			<div class="container d-flex justify-content-between">
