@@ -10,6 +10,9 @@ class RegisterController extends Controller
 {
 	public function register(Request $request)
 	{	
+		if(!$request->check) {
+			return redirect()->back()->withErrors('Please check our policy checkbox.');
+		}
 		$data = $request->validate([
 			'first_name' => 'required',
 			'last_name' => 'required',
