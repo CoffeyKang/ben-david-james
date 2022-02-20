@@ -52,11 +52,13 @@ header button {
 
 .contant-page {
   background-color: #CD0000;
+  min-height: 900px;
 }
 
 .contant-page .my-form {
-  position: relative;
-  top: -300px;
+  position: absolute;
+  top: 40%;
+  left: 34%;
 }
 
 .contant-page .my-form .title {

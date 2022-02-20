@@ -25,17 +25,24 @@
 				</div>
 			</div>
 		</header>
-
 		<div class='contant-page'>
 			<div class="container">
-				<div class="my-form text-center">
+				<div class="my-form text-center col-sm-12 col-lg-4">
 					<div class='title'>JOIN US</div>
-					<form class="offset-2 col-8  text-center">
+					<form class="text-center" method="post" action="/register">
+						@csrf
 						<div class="header">
 							<h3>Registration for</h3>
 							<h2>Japan Virtual Travel Expo</h2>
 							<h3>March 16, 2022, 11AM – 7PM EST</h3>
 						</div>
+						@if (count($errors) > 0)
+							<div class="alert alert-danger">
+								@foreach ($errors->all() as $error)
+									<li>{{$error}}</li>
+								@endforeach
+							</div>
+						@endif
 						<div class="form-group">
 							<input type="text" class="form-control" id="first_name" name='first_name' placeholder="FIRST NAME">
 						</div>

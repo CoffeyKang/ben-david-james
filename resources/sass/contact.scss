@@ -48,9 +48,11 @@ header {
 }
 .contant-page{
 	background-color: #CD0000;
+	min-height: 900px;
 	.my-form{
-		position: relative;
-		top: -300px;
+		position: absolute;
+		top: 40%;
+		left: 34%;
 		.title{
 			color: white;
 			font-size: 48px;
