@@ -1,0 +1,108 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("/font/DDCHardware-Regular.otf");
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url("/font/HelveticaNeue.ttc");
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url("/font/MyriadPro-Regular.otf");
+}
+
+hr {
+  border-top: 5px solid #CD0000;
+  border-collapse: collapse;
+  padding: 0;
+  margin-top: 30px;
+}
+
+header {
+  background-image: url("/images/presentors.jpg");
+  background-size: cover;
+  min-height: 550px;
+  font-family: "myFirstFont";
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+  color: #CD0000;
+  font-size: 150px;
+  font-weight: bolder;
+}
+
+header h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+header button {
+  background-color: #CD0000;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  font-family: "myFirstFont";
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #CD0000;
+  font-family: "myFirstFont";
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.main {
+  background-image: url("/images/bottom.jpeg");
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.5);
+  padding-bottom: 300px;
+}
+
+.main .title {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-family: "myFirstFont";
+  color: #CD0000;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.main .presentor {
+  padding: 60px 0;
+}
+
+.main .presentor .presentor-text {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #CD0000;
+  font-family: "myThirdFont";
+  font-weight: 200;
+  color: white;
+  font-size: 18px;
+}
+
