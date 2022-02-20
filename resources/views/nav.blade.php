@@ -10,7 +10,7 @@
 			<a class="nav-link" href="/about#exhibitors">EXHIBITORS </a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="/about#presenters">PRESENTERS</a>
+			<a class="nav-link" href="/presenters">PRESENTERS</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="/contact">CONTACT</a>
