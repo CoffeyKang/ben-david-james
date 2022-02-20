@@ -54,11 +54,11 @@
 			
 		</div>
 
-		<div class='presentors' id='presentor'>
+		<div class='Presenters' id='Presenter'>
 			<div class="container">
 				<div class="row d-flex justify-content-between">
 					<div class="title">
-						PRESENTORS
+						PresenterS
 					</div>
 					
 					<button class="btn btn-outline-danger">

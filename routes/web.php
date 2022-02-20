@@ -31,8 +31,8 @@ Route::get('/exhibitors', function () {
     return view('exhibitors');
 });
 
-Route::get('/presentors', function () {
-    return view('presentors');
+Route::get('/presenters', function () {
+    return view('presenters');
 });
 
 Route::get('/contact', function () {

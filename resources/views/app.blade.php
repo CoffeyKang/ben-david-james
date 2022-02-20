@@ -10,6 +10,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/base.css">
 	</head>
 	<body class="container-fuild">
 		<header>
@@ -25,25 +26,7 @@
 				</div>
 			</div>
 		</header>
-		<nav>
-			<ul class="nav container d-flxt justify-content-between  w-100">
-				<li class="nav-item">
-				  <a class="nav-link active" href="#about">ABOUT</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="#">SCHEDULE</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="#exhibitors">EXHIBITORS </a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="/presentors">PRESENTORS</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/contact">CONTACT</a>
-				  </li>
-			  </ul>
-		</nav>
+		@include('nav')
 
 		<div>
 			@yield('content')

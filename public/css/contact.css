@@ -1,18 +1,3 @@
-@font-face {
-  font-family: myFirstFont;
-  src: url("/font/DDCHardware-Regular.otf");
-}
-
-@font-face {
-  font-family: mySecondFont;
-  src: url("/font/HelveticaNeue.ttc");
-}
-
-@font-face {
-  font-family: myThirdFont;
-  src: url("/font/MyriadPro-Regular.otf");
-}
-
 hr {
   border-top: 5px solid #CD0000;
   border-collapse: collapse;
@@ -21,10 +6,10 @@ hr {
 }
 
 header {
-  background-image: url("/images/presentors.jpg");
+  background-image: url("/images/Presenters.jpg");
   background-size: cover;
-  min-height: 800px;
-  font-family: "myFirstFont";
+  min-height: 500px;
+  font-family: "Helvetic";
   box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
 }
 
@@ -45,102 +30,21 @@ header button {
   border: none;
   color: white;
   padding: 5px 10px;
-  font-family: "myFirstFont";
+  font-family: "Helvetic";
   font-weight: bolder;
   border-radius: 5px;
 }
 
 .contant-page {
   background-color: #CD0000;
-  min-height: 900px;
-}
-
-.contant-page .my-form {
-  position: absolute;
-  top: 40%;
-  left: 34%;
-}
-
-.contant-page .my-form .title {
-  color: white;
-  font-size: 48px;
-  font-family: "myFirstFont";
-  margin-bottom: 20px;
-}
-
-.contant-page .my-form form {
-  background-color: white;
-  padding: 50px;
-  border-radius: 30px;
-}
-
-.contant-page .my-form form .header {
-  font-family: "myFirstFont";
-  font-weight: bolder;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-}
-
-.contant-page .my-form form .header h2 {
-  color: #CD0000;
-}
-
-.contant-page .my-form form .logos {
-  border-bottom: 5px solid black;
-}
-
-.contant-page .my-form form .logo-left {
-  background-image: url("/images/JNTO.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-height: 200px;
-  min-width: 200px;
-}
-
-.contant-page .my-form form .logo-right {
-  background-image: url("/images/tokyo.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-height: 200px;
-  min-width: 200px;
-}
-
-.contant-page .my-form form .form-footer p {
-  font-size: 18px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #CD0000;
-  font-weight: bolder;
-}
-
-.contant-page .my-form form .form-footer .row {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.contant-page .my-form form .form-footer button {
-  height: 36px;
-}
-
-.contant-page .my-form form .form-check {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.contant-page .my-form form .form-check label {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: bolder;
-  padding-right: 200px;
+  min-height: 500px;
 }
 
 footer {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #CD0000;
-  font-family: "myThirdFont";
+  font-family: "Helvetic";
   font-weight: 200;
   color: white;
   font-size: 18px;

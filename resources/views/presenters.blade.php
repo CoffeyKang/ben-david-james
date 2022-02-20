@@ -9,7 +9,8 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="css/presentors.css">
+		<link rel="stylesheet" href="css/presenters.css">
+		<link rel="stylesheet" href="css/base.css">
 	</head>
 	<body class="container-fuild">
 		<header>
@@ -25,37 +26,19 @@
 				</div>
 			</div>
 		</header>
-		<nav>
-			<ul class="nav container d-flxt justify-content-between  w-100">
-				<li class="nav-item">
-				  <a class="nav-link active" href="#about">ABOUT</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="#">SCHEDULE</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="#exhibitors">EXHIBITORS </a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="/presentors">PRESENTORS</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/contact">CONTACT</a>
-				  </li>
-			  </ul>
-		</nav>
+		@include('nav')
 
 		<div class='container main'>
 			<div class="title">
-				PRESENTORS
+				PresenterS
 			</div>
 			<hr>
 
-			<div class="presentor row">
+			<div class="Presenter row">
 				<div class="logo col-3">
 					<img src="/images/shimanami.png" alt="">
 				</div>
-				<div class="presentor-text col-9">
+				<div class="Presenter-text col-9">
 					<p>
 						"SHIMANAMI JAPAN" is a Japanese DMO located along the Shimanami 
 						Kaido, consisting of Onomichi City, Hiroshima Prefecture, Imabari City and 
@@ -69,11 +52,11 @@
 			</div>
 			<hr>
 
-			<div class="presentor row">
+			<div class="Presenter row">
 				<div class="logo col-3">
 					<img src="/images/shimanami.png" alt="">
 				</div>
-				<div class="presentor-text col-9">
+				<div class="Presenter-text col-9">
 					<p>
 						"SHIMANAMI JAPAN" is a Japanese DMO located along the Shimanami 
 						Kaido, consisting of Onomichi City, Hiroshima Prefecture, Imabari City and 
@@ -87,11 +70,11 @@
 			</div>
 			<hr>
 
-			<div class="presentor row">
+			<div class="Presenter row">
 				<div class="logo col-3">
 					<img src="/images/shimanami.png" alt="">
 				</div>
-				<div class="presentor-text col-9">
+				<div class="Presenter-text col-9">
 					<p>
 						"SHIMANAMI JAPAN" is a Japanese DMO located along the Shimanami 
 						Kaido, consisting of Onomichi City, Hiroshima Prefecture, Imabari City and 
@@ -105,11 +88,11 @@
 			</div>
 			<hr>
 
-			<div class="presentor row">
+			<div class="Presenter row">
 				<div class="logo col-3">
 					<img src="/images/shimanami.png" alt="">
 				</div>
-				<div class="presentor-text col-9">
+				<div class="Presenter-text col-9">
 					<p>
 						"SHIMANAMI JAPAN" is a Japanese DMO located along the Shimanami 
 						Kaido, consisting of Onomichi City, Hiroshima Prefecture, Imabari City and 
