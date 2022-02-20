@@ -60,7 +60,7 @@ header {
 		form{
 			background-color: white;
 			padding: 50px;
-			border-radius: 10px;
+			border-radius: 30px;
 			.header{
 				font-family: 'myFirstFont';
 				font-weight: bolder;
@@ -70,22 +70,54 @@ header {
 					color: #CD0000;
 				}
 			}
-			
+			.logos{
+				border-bottom: 5px solid black;
+			}
 			.logo-left{
-				background-image: url('/images/airCanada.png');
+				background-image: url('/images/JNTO.png');
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				height: 200px;
+				min-height: 200px;
+				min-width: 200px;;
 			}
 			.logo-right{
-				background-image: url('/images/airCanada.png');
+				background-image: url('/images/tokyo.png');
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				height: 200px;
+				min-height: 200px;
+				min-width: 200px;;
 			}
+
+			.form-footer{
+				p{
+					font-size: 18px;
+					line-height: 18px;
+					text-transform: uppercase;
+					color: #CD0000;
+					font-weight: bolder;
+				}
+				.row{
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+				button{
+					height: 36px;
+				}
+			}
+			.form-check{
+				padding-top: 15px;
+				padding-bottom: 15px;
+				label{
+					font-size: 14px;
+					text-transform: uppercase;
+					font-weight: bolder;
+					padding-right: 200px;
+
+				}
 				
+			}
 		}
 		
 	}

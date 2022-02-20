@@ -53,7 +53,7 @@
 
 			<div class="presentor row">
 				<div class="logo col-3">
-					<img src="/images/Fujita Kanko_Logo.png" alt="">
+					<img src="/images/shimanami.png" alt="">
 				</div>
 				<div class="presentor-text col-9">
 					<p>
@@ -71,7 +71,7 @@
 
 			<div class="presentor row">
 				<div class="logo col-3">
-					<img src="/images/Fujita Kanko_Logo.png" alt="">
+					<img src="/images/shimanami.png" alt="">
 				</div>
 				<div class="presentor-text col-9">
 					<p>
@@ -89,7 +89,7 @@
 
 			<div class="presentor row">
 				<div class="logo col-3">
-					<img src="/images/Fujita Kanko_Logo.png" alt="">
+					<img src="/images/shimanami.png" alt="">
 				</div>
 				<div class="presentor-text col-9">
 					<p>
@@ -107,7 +107,7 @@
 
 			<div class="presentor row">
 				<div class="logo col-3">
-					<img src="/images/Fujita Kanko_Logo.png" alt="">
+					<img src="/images/shimanami.png" alt="">
 				</div>
 				<div class="presentor-text col-9">
 					<p>

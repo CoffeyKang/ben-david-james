@@ -96,6 +96,10 @@ nav a:hover {
   text-align: justify;
 }
 
+.main .presentor .logo img {
+  width: 200px;
+}
+
 footer {
   padding-top: 20px;
   padding-bottom: 20px;

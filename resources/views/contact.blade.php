@@ -37,37 +37,49 @@
 							<h3>March 16, 2022, 11AM – 7PM EST</h3>
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<input type="text" class="form-control" id="first_name" name='first_name' placeholder="FIRST NAME">
 						</div>
 						<div class="form-group">
-							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							<input type="text" class="form-control" id="last_name" name="last_name"  placeholder="LAST NAME">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<input type="text" class="form-control" id="agency" name="agency" placeholder="Travel agency / Corporation name">
 						</div>
 						<div class="form-group">
-							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
 						</div>
 						<div class="row">
 							<div class="form-group col-6">
-								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								<input type="text" class="form-control" id="city" name="city" placeholder="City">
 							</div>
 							<div class="form-group col-6">
-								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								<input type="text" class="form-control" id="province" name="province" placeholder="Province">
 							</div>
 						</div>
 						<div class="form-check text-left">
-							<input type="checkbox" class="form-check-input" id="exampleCheck1">
-							<label class="form-check-label" for="exampleCheck1">I have read and agree to the 
+							<input type="checkbox" class="form-check-input" id="check" name="check">
+							<label class="form-check-label" for="check">I have read and agree to the 
 								Prize Draw Rules and Regulations.</label>
 						</div>
 						<div class="text-left">
 							<button type="submit" class="btn btn-danger">Register</button>
 						</div>
-						<div class="logos d-flex justify-content-between">
+						<div class="logos d-flex justify-content-around">
 							<div class="logo-left">
 							</div>
 							<div class="logo-right">
+							</div>
+						</div>
+
+						<div class="form-footer pt-5">
+							<p class="text-left pr-3">Excellent opportunity for networking with the Japan tour suppliers.</p>
+							<div class="row pr-0 pl-0">
+								<p class="col-9 text-left">Great prizes of over $20,000 for the show visitors.
+								</p>
+								<button class="btn btn-outline-danger col-3">
+									LEARN MORE
+								</button>
+								
 							</div>
 						</div>
 					</form>
