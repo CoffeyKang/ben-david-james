@@ -49,7 +49,7 @@
 			
 		</div>
 
-		<div class='Presenters' id='Presenter'>
+		<div class='presenters' id='presenter'>
 			<div class="container">
 				<div class="row d-flex justify-content-between">
 					<div class="title">

@@ -6,7 +6,7 @@ hr {
 }
 
 header {
-  background-image: url("/images/Presenters.jpg");
+  background-image: url("/images/presenters.jpg");
   background-size: cover;
   min-height: 500px;
   font-family: "Helvetic";

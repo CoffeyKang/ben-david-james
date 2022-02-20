@@ -34,11 +34,11 @@
 			</div>
 			<hr>
 
-			<div class="Presenter row">
+			<div class="presenter row">
 				<div class="logo col-3">
 					<img src="/images/shimanami.png" alt="">
 				</div>
-				<div class="Presenter-text col-9">
+				<div class="presenter-text col-9">
 					<p>
 						"SHIMANAMI JAPAN" is a Japanese DMO located along the Shimanami 
 						Kaido, consisting of Onomichi City, Hiroshima Prefecture, Imabari City and 
@@ -52,11 +52,11 @@
 			</div>
 			<hr>
 
-			<div class="Presenter row">
+			<div class="presenter row">
 				<div class="logo col-3">
 					<img src="/images/shimanami.png" alt="">
 				</div>
-				<div class="Presenter-text col-9">
+				<div class="presenter-text col-9">
 					<p>
 						"SHIMANAMI JAPAN" is a Japanese DMO located along the Shimanami 
 						Kaido, consisting of Onomichi City, Hiroshima Prefecture, Imabari City and 
@@ -70,11 +70,11 @@
 			</div>
 			<hr>
 
-			<div class="Presenter row">
+			<div class="presenter row">
 				<div class="logo col-3">
 					<img src="/images/shimanami.png" alt="">
 				</div>
-				<div class="Presenter-text col-9">
+				<div class="presenter-text col-9">
 					<p>
 						"SHIMANAMI JAPAN" is a Japanese DMO located along the Shimanami 
 						Kaido, consisting of Onomichi City, Hiroshima Prefecture, Imabari City and 
@@ -88,11 +88,11 @@
 			</div>
 			<hr>
 
-			<div class="Presenter row">
+			<div class="presenter row">
 				<div class="logo col-3">
 					<img src="/images/shimanami.png" alt="">
 				</div>
-				<div class="Presenter-text col-9">
+				<div class="presenter-text col-9">
 					<p>
 						"SHIMANAMI JAPAN" is a Japanese DMO located along the Shimanami 
 						Kaido, consisting of Onomichi City, Hiroshima Prefecture, Imabari City and 

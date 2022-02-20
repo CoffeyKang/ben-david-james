@@ -92,19 +92,19 @@ header button {
   background-repeat: no-repeat;
 }
 
-.Presenters .title {
+.presenters .title {
   font-family: "Helvetic";
   color: #CD0000;
   font-weight: bolder;
   font-size: 28px;
 }
 
-.Presenters button {
+.presenters button {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.Presenters .exhibitor-images {
+.presenters .exhibitor-images {
   background-image: url("/images/JNTO_logo-2.jpg");
   background-size: cover;
   min-height: 900px;
