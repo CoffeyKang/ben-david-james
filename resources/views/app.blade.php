@@ -27,7 +27,11 @@
 			</div>
 		</header>
 		@include('nav')
-
+		@if (Session::has('messege'))
+							<div class="alert alert-success">
+								{{ Session::get('messege')}}
+							</div>
+					@endif
 		<div>
 			@yield('content')
 		</div>

@@ -6,11 +6,6 @@
 					<div class="col-5 about-img">
 
 					</div>
-					@if (Session::has('messege'))
-							<div class="alert alert-success">
-								{{ Session::get('messege')}}
-							</div>
-					@endif
 					<div class="col-7 about-text d-flex flex-column justify-content-between">
 						<h2 class="title">ABOUT</h2>
 						
