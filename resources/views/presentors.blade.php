@@ -31,7 +31,7 @@
 				  <a class="nav-link active" href="#about">ABOUT</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="/schedule">SCHEDULE</a>
+				  <a class="nav-link" href="#">SCHEDULE</a>
 				</li>
 				<li class="nav-item">
 				  <a class="nav-link" href="#exhibitors">EXHIBITORS </a>
