@@ -7,7 +7,7 @@
 			<a class="nav-link" href="#">SCHEDULE</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="/about#exhibitors">EXHIBITORS </a>
+			<a class="nav-link" href="/exhibitors">EXHIBITORS </a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="/presenters">PRESENTERS</a>

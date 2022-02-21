@@ -36,9 +36,9 @@
 						EXHIBITORS
 					</div>
 					
-					<button class="btn btn-outline-danger">
+					<a class="btn btn-outline-danger" href='/exhibitors'>
 						MORE
-					</button>
+					</a>
 
 				</div>
 				<hr class='row'>
@@ -53,12 +53,12 @@
 			<div class="container">
 				<div class="row d-flex justify-content-between">
 					<div class="title">
-						PresenterS
+						PRESENTERS
 					</div>
 					
-					<button class="btn btn-outline-danger">
+					<a class="btn btn-outline-danger" href="/presenters">
 						MORE
-					</button>
+					</a>
 
 				</div>
 				<hr class='row'>
