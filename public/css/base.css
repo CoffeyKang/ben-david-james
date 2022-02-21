@@ -17,10 +17,11 @@ nav a:hover {
 }
 
 .my-form .title {
-  color: #CD0000;
+  color: white;
   font-size: 48px;
   font-family: "Helvetic";
   margin-bottom: 20px;
+  font-weight: bolder;
   background: transparent;
 }
 
@@ -92,8 +93,16 @@ nav a:hover {
   padding-right: 200px;
 }
 
-.modal-content {
-  background: transparent;
-  border: none;
+.modal-content .modal-body {
+  background: #CD0000;
+  padding: 10px 50px 30px 50px;
+  border-top: none;
+}
+
+.modal-content .modal-header {
+  background-image: url("/images/presenters.jpg");
+  min-height: 200px;
+  background-position: top right;
+  background-size: cover;
 }
 

@@ -25,11 +25,14 @@
 <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" class="w-100">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
+			<div class="modal-header">
+				
+			</div>
       <div class="modal-body">
         <div class="my-form text-center">
-					
+					<div class='title'>JOIN US</div>
 					<form class="text-center" method="post" action="/register">
-						<div class='title'>JOIN US</div>
+						
 						@csrf
 						<div class="header">
 							<h3>Registration for</h3>
