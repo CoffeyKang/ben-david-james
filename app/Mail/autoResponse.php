@@ -7,11 +7,10 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class Registered extends Mailable
+class autoResponse extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data;
     /**
      * Create a new message instance.
      *
@@ -30,7 +29,8 @@ class Registered extends Mailable
     public function build()
     {
         return $this->from('Info@japantravelexpo.ca')
+                    ->subject('Registration Confirmation for the Japan 3D Travel Show 2022')
                     ->with(['data' => $this->data ])
-                    ->markdown('emails.registered');
+                    ->markdown('emails.autoResponse');
     }
 }
