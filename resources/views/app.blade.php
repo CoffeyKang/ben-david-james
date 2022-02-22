@@ -40,9 +40,9 @@
 		<footer>
 			<div class="container d-flex justify-content-between">
 				<div>
-					Logo Here
+					<img src='/images/footerlogo.png' style="height:67px">
 				</div>
-				<div>
+				<div style="line-height:67px">
 					Copyright © Shockwave Media & Consulting Inc. All Rights Reserved
 				</div>
 			</div>

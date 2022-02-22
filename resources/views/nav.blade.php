@@ -10,7 +10,7 @@
 			<a class="nav-link" href="/exhibitors">EXHIBITORS </a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="/presenters">PRESENTERS</a>
+			<a class="nav-link" href="/presenters">JNTO MEMBERS</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="/contact">CONTACT</a>
@@ -20,6 +20,7 @@
 		</li>
 		</ul>
 </nav>
+
 
 <!-- Modal -->
 <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" class="w-100">
@@ -49,6 +50,15 @@
 								$('#register').click();
 							</script>
 						@endif
+						
+						@if(isset($registration))
+<script>
+	$('#register').click();
+	console.log('registration');
+</script>
+
+
+@endif
 						<div class="form-group">
 							<input type="text" class="form-control" id="first_name" name='first_name' placeholder="FIRST NAME">
 						</div>
@@ -89,9 +99,9 @@
 							<div class="row pr-0 pl-0">
 								<p class="col-9 text-left">Great prizes of over $20,000 for the show visitors.
 								</p>
-								<button class="btn btn-outline-danger col-3">
+								<a class="btn btn-outline-danger col-3" href="/">
 									LEARN MORE
-								</button>
+								</a>
 								
 							</div>
 						</div>

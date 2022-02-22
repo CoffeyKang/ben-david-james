@@ -23,6 +23,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/registration', function () {
+    return view('about', ['registration' => true]);
+});
+
 Route::get('/schedule', function () {
     return view('schedule');
 });
