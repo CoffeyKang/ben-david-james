@@ -15,10 +15,20 @@
 	<body class="container-fuild">
 		<header>
 			<div class="container">
-				<div class="pt-5">
-					<h1>JAPAN</h1>
-					<h2>3D VIRTURAL<br>
-						TRAVEL expo</h2>
+				<div class="pt-5 d-flex justify-content-between">
+					<div>
+						<img src="/images/headerlogo.png" alt="">
+					</div>
+					<div class='text-right'>
+						<h1>JAPAN</h1>
+						<h2>3D VIRTURAL<br>
+							TRAVEL expo</h2>
+						<button class="myBtn mt-3">
+							March 16, 2022 <br>
+							11AP - 7PM EST
+						</button>
+					</div>
+					
 				</div>
 			</div>
 		</header>
