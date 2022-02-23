@@ -17,7 +17,7 @@
 			<div class="container">
 				<div class="pt-5">
 					<h1>JAPAN</h1>
-					<h2>VIRTURAL<br>
+					<h2>3D VIRTURAL<br>
 						TRAVEL expo</h2>
 				</div>
 			</div>
@@ -175,10 +175,8 @@
 			
 		
 		<footer>
-			<div class="container d-flex justify-content-between">
-				<div>
-					<img src='/images/footerlogo.png' style="height:67px">
-				</div>
+			<div class="container d-flex justify-content-center">
+				
 				<div>
 					Copyright © Shockwave Media & Consulting Inc. All Rights Reserved
 				</div>

@@ -17,7 +17,7 @@
 			<div class="container">
 				<div class="pt-5 text-right">
 					<h1>JAPAN</h1>
-					<h2>VIRTURAL<br>
+					<h2>3D VIRTURAL<br>
 						TRAVEL expo</h2>
 					<button class="myBtn mt-3">
 						March 16, 2022 <br>
@@ -38,15 +38,16 @@
 	
 		
 		<footer>
-			<div class="container d-flex justify-content-between">
+			<div class="container d-flex justify-content-center">
 				<div>
-					<img src='/images/footerlogo.png' style="height:67px">
-				</div>
-				<div style="line-height:67px">
 					Copyright © Shockwave Media & Consulting Inc. All Rights Reserved
 				</div>
 			</div>
 		</footer>
 	</body>
-		
+	<script>
+		var height = $(window).height() - 735;
+		var h = height + "px";
+		$('.main-content').css('min-height', h);
+	</script>
 </html>

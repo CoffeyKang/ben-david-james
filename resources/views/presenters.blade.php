@@ -17,7 +17,7 @@
 			<div class="container">
 				<div class="pt-5">
 					<h1>JAPAN</h1>
-					<h2>VIRTURAL<br>
+					<h2>3D VIRTURAL<br>
 						TRAVEL expo</h2>
 				</div>
 			</div>
@@ -26,7 +26,7 @@
 
 		<div class='container main'>
 			<div class="title">
-		    JNTO Members </div>
+		    PRESENTERS </div>
 			<hr>
 
 			<div class="presenter row">
@@ -240,11 +240,9 @@
 
 		
 		<footer>
-			<div class="container d-flex justify-content-between">
+			<div class="container d-flex justify-content-center">
+			
 				<div>
-					<img src='/images/footerlogo.png' style="height:67px">
-				</div>
-				<div style="line-height:67px">
 					Copyright © Shockwave Media & Consulting Inc. All Rights Reserved
 				</div>
 			</div>

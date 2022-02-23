@@ -4,13 +4,13 @@
 			<a class="nav-link active" href="/">HOME</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#">SCHEDULE</a>
+			<a class="nav-link" href="/schedule">SCHEDULE</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="/exhibitors">EXHIBITORS </a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="/presenters">JNTO MEMBERS</a>
+			<a class="nav-link" href="/presenters">PRESENTERS</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="/contact">CONTACT</a>
@@ -27,7 +27,9 @@
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
 			<div class="modal-header">
-				
+				<div class="header-logo">
+					<img src="/images/headerlogo.png" alt="">
+				</div>
 			</div>
       <div class="modal-body">
         <div class="my-form text-center">
@@ -37,7 +39,7 @@
 						@csrf
 						<div class="header">
 							<h3>Registration for</h3>
-							<h2>Japan Virtual Travel Expo</h2>
+							<h2>Japan 3D Virtual Travel Show</h2>
 							<h3>March 16, 2022, 11AM – 7PM EST</h3>
 						</div>
 						@if (count($errors) > 0)
@@ -81,8 +83,7 @@
 						</div>
 						<div class="form-check text-left">
 							<input type="checkbox" class="form-check-input" id="check" name="check">
-							<label class="form-check-label" for="check">I have read and agree to the 
-								Prize Draw Rules and Regulations.</label>
+							<label class="form-check-label" for="check"><a href="/20220218-(R)-Japan-Virtual-Travel-Show-Prize-Giveaway-Rules&Regulations.docx" download>	I have read and agree to the prize draw rules and regulations.</a></label>
 						</div>
 						<div class="text-left">
 							<button type="submit" class="btn btn-danger">Register</button>

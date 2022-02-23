@@ -17,7 +17,7 @@
 			<div class="container text-right">
 				<div class="pt-5">
 					<h1>JAPAN</h1>
-					<h2>VIRTURAL<br>
+					<h2>3D VIRTURAL<br>
 						TRAVEL expo</h2>
 					<button class="myBtn mt-3">
 						March 16, 2022 <br>
@@ -27,12 +27,10 @@
 			</div>
 		</header>
 		@include('nav')
-		<div class='contant-page'>
-			<div class="container">
-				
+			<div class="container main-content">
+				<h3 class='mt-5 mb-3'>For enquiry about the Japan 3D Virtual Travel Expo, please email to Info@japantravelexpo.ca </h3>
 				
 			</div>
-		</div>	
 
 		
 
@@ -46,5 +44,9 @@
 			</div>
 		</footer>
 	</body>
-		
+	<script>
+		var height = $(window).height() - 685;
+		var h = height + "px";
+		$('.main-content').css('min-height', h);
+	</script>
 </html>
